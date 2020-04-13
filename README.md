@@ -18,4 +18,4 @@
 
 [快速开始](https://jspang.com/detailed?id=62#toc216)
 
-![image-20200413202956890](\images\1.png)
+![image-20200413202956890](images/1.png)
