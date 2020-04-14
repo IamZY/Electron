@@ -21,10 +21,10 @@ app.on('ready', () => {
     let isRegister = globalShortcut.isRegistered('ctrl+e') ? 'Register Success' : 'Register fail'
     console.log(isRegister)
 
-    mainWindow.webContents.openDevTools()
+    // mainWindow.webContents.openDevTools()
     require('./main/menu.js')
-    mainWindow.loadFile('demo6.html')
-
+    // mainWindow.loadFile('demo6.html')
+    mainWindow.loadURL('http://www.baidu.com')
     // BrowserView
     // var BrowserView = electron.BrowserView
     // var view = new BrowserView()

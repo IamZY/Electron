@@ -4,12 +4,16 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "packager": "electron-packager ./ HelloWorld --all --out ./outApp  --overwrite --icon=./app/img/icon/icon.ico"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "electron": "^8.2.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^14.2.1"
   }
 }
