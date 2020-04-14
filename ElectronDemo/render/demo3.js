@@ -10,5 +10,12 @@ aHref.onclick = function (e) {
 
 var myBtn = document.querySelector('#mybtn')
 myBtn.onclick = function () { 
-    window.open('http://www.baidu.com')
+    window.open('./popup_page.html')
 }
+
+window.addEventListener('message', (msg) => { 
+    let mytext = document.querySelector('#mytext')
+
+    mytext.innerHTML = JSON.stringify(msg)
+
+})
