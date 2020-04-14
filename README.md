@@ -3,12 +3,12 @@
 
 + 修改npmrc文件 切换镜像源
 
-  npmrc 位置通过下面方式打开
+  npmrc 位置通过cmd下面方式打开
 
   > npm config edit 
 
 > registry=https://registry.npm.taobao.org
-> electron_mirror="https://npm.taobao.org/mirrors/electron/"+  
+> electron_mirror="https://npm.taobao.org/mirrors/electron/"
 
 + 安装electron
 
